@@ -7,7 +7,6 @@ Requirements
 ------------
 
 RHEL/CentOS
-Should work with Debian/Ubuntu but is untested
 
 Playbook Example
 ----------------
@@ -47,14 +46,3 @@ tomcat_user_home: /opt/{{ catalina_home }}/tmp
 tomcat_uid: '500'
 manager_user: manager-gui
 manager_password: managersecret
-```
-
-Dependencies
-------------
-
-None
-
-License
--------
-
-BSD
