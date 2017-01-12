@@ -58,10 +58,3 @@ License
 -------
 
 BSD
-
-Author Information
-------------------
-
-Justin Garrison
-@infra
-justingarrison.com
