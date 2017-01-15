@@ -1,0 +1,10 @@
+# Each should have your (ansible user) SSH key in authorized_keys
+
+[apache]
+172.31.47.223 
+
+[appserver1]
+172.31.47.223
+
+[appserver2]
+172.31.94.56
