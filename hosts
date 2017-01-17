@@ -1,10 +1,11 @@
 # Each should have your (ansible user) SSH key in authorized_keys
 
-[apache]
-172.31.47.223 
+[control]
+localhost
+
+[tomcat]
+172.31.17.97 ansible_user=ec2-user 
 
 [appserver1]
-172.31.47.223
+172.31.17.97
 
-[appserver2]
-172.31.94.56
