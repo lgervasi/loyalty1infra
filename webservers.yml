@@ -1,0 +1,8 @@
+---
+- hosts: tomcat
+  sudo: yes
+  vars_files:
+    - roles/vars/main.yml
+  roles:
+    - roles
+
