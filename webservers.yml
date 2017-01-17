@@ -1,5 +1,5 @@
 ---
-- hosts: tomcat2
+- hosts: appservers
   sudo: yes
   vars_files:
     - roles/vars/main.yml
